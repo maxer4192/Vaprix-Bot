@@ -10,7 +10,8 @@ with open("config.json", "r") as f:
 
 bot = commands.Bot(command_prefix=config["prefix"], intents=discord.Intents.all())
 bot.remove_command("help")
-
+if config["use-jishaku"] == True:
+    bot.load_extension("jishaku")
 global modlog 
 async def modlog(ctx, action, user: discord.Member, sender: discord.Member, reason):
     if config["mod-log"] == True:
