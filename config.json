@@ -1,10 +1,10 @@
 {
-    "prefix": "",
-    "alt-threshold-days": int,
-    "alt-kick-logging": bool,
-    "verified-role-id": int,
-    "welcome-channel": int,
-    "mod-log": bool,
-    "log-channel": bool,
+    "prefix": "v!",
+    "alt-threshold-days": 30,
+    "alt-kick-logging": true,
+    "verified-role-id": 981745197249622028,
+    "welcome-channel": 981696969145745470,
+    "mod-log": true,
+    "log-channel": 981696853080965142,
     "bot-token": ""
 }
